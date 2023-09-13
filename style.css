@@ -54,7 +54,7 @@ input {
     outline: none;
     background: transparent;
     padding: 10px;
-    font-weight: 12px;
+    font-weight: 14px;
     width: 100%; /* Take up full width on mobile and tablet */
 }
 
@@ -65,7 +65,7 @@ button {
     border-radius: 30px;
     background-color: #ade3fa;
     cursor: pointer;
-    width: 100%; /* Take up full width on mobile and tablet */
+    /* width: 100%;Take up full width on mobile and tablet */
 }
 
 ul li {
