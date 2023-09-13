@@ -121,5 +121,31 @@ ul li span{
 ul li span:hover{
     background-color: #9bd4f9;}
 
+/* Base Styles */
+
+/* Your existing styles for body, main, #addBtn, .note, .tool, etc. */
+
+/* Media Queries for Responsiveness */
+
+/* Small screens (e.g., mobile phones) */
+@media (max-width: 768px) {
+    #main {
+        justify-content: flex-start; /* Adjust alignment for small screens */
+    }
+    .note {
+        width: 100%; /* Make notes occupy full width on small screens */
+        margin: 10px 0; /* Add some vertical spacing */
+    }
+}
+
+/* Medium screens (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles as needed for medium-sized screens */
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 1025px) {
+    /* Adjust styles as needed for large screens */
+}
 
    
